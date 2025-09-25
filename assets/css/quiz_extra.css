@@ -1,0 +1,8 @@
+
+/* --- Quiz UI extras: hearts + 2x2 grid --- */
+.hearts{display:flex;gap:6px;align-items:center;margin-bottom:10px;font-size:28px;}
+.heart{color:#ff0066;}
+.heart.dead{color:#444;}
+.answer-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px;}
+.answer-btn{display:block;width:100%;padding:18px 20px;background:#1a003d;border:2px solid #00fff7;color:#fff;font-size:18px;border-radius:12px;cursor:pointer;text-align:center;transition:.2s;}
+.answer-btn:hover{background:#ff00ff;border-color:#ff00ff;}

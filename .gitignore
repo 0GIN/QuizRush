@@ -1,0 +1,34 @@
+# Pliki konfiguracyjne z hasłami
+config/config.php
+config/db.php
+
+# Foldery z przesłanymi plikami
+uploads/
+assets/avatars/
+
+# Pliki systemu macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Pliki IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pliki logów
+*.log
+
+# Foldery tymczasowe
+tmp/
+temp/
+
+# Pliki backup
+*.bak
+*.backup
+*~

@@ -1,0 +1,2 @@
+<?php require_once __DIR__.'/../init.php'; if($_SESSION['role']!=='admin') header('Location: ../index.php'); include __DIR__ . '/../partials/header.php';?>
+<div class='container'><h1>Admin</h1><a href='queue.php'>Panel Admina</a></div><?php include __DIR__ . '/../partials/footer.php';?>
